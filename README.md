@@ -21,6 +21,7 @@ If there is a newer version upon opening the file the user will be notified abou
 Credit to part of method1 to Florian Lindstaedt posted:
 https://www.linkedin.com/pulse/20140608044541-54506939-how-to-recall-an-old-excel-spreadsheet-version-control-with-vba
 Noam Brand noambbb@gmail.com
+See project on stackoverflow: https://stackoverflow.com/questions/71829652/push-new-version-from-google-drive-to-users-vba/71829732#71829732
 
 
 עדכון גרסאות תוכנה מקומיות מגוגל דרייב באמצעות VBA
@@ -49,4 +50,4 @@ Noam Brand noambbb@gmail.com
 עדכון מנתיב מקומי רק לקוד ולא לקובץ כולו (קובץ bas שנשמר בנתיב מקומי מחליף את הקיים בקובץ המקורי של המשתמש).
 
 נ.ב הצלחתי לרשום הודעה למשתמש עם פרטי העדכון מקובץ TXT רק באנגלית, בעברית התוכן מוצג כג'יבריש, אם אתם יודעים איך לסדר את זה אשמח שתשלחו לי מייל noambbb@gmail.com  או שתעשו לפרויקט fork).
-
+לעיון בפרויקט בסטאקאוברפלואו: https://stackoverflow.com/questions/71829652/push-new-version-from-google-drive-to-users-vba/71829732#71829732
