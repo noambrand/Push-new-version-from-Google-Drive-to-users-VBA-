@@ -1,8 +1,13 @@
 # Push-new-version-from-Google-Drive-to-users-VBA-
+
 Push new version from Google Drive to users (3 methods in VBA)
+
 Method1: Push new file version from Google Drive to users (VBA)
+
 Method2: Push new code from Google Drive to original users file (VBA)
+
 Method3: Push new code from a shared path on local network to original users file (VBA)
+
 See project on stackoverflow: https://stackoverflow.com/questions/71829652/push-new-version-from-google-drive-to-users-vba/71829732#71829732
 
 Existing solutions disadvantages that this solution solves:
