@@ -13,8 +13,11 @@ See project on stackoverflow: https://stackoverflow.com/questions/71829652/push-
 Existing solutions disadvantages that this solution solves:
 
 ● Some solutions require saving user's emails and mailing multiple users. If someone shares the file whoever receives the file will not receive version updates.
+
 ● Some solutions require the developer to register to a Zapeir or Integrate account in order to configure webhooks.
+
 ● Some solutions require a fixed filename (the new file name cannot be taken from Google Drive).
+
 ● Some solutions require the use of Google API which includes a complicated set of permissions that have to be configured(authentication with token issuance and secret code). Since in our case the file is shared publicly, the need for such permissions can be avoided, thus a simpler solution can be implemented.
 
 How does it work?
