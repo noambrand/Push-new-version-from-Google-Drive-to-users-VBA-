@@ -1,17 +1,15 @@
 # Push-new-version-from-Google-Drive-to-users-VBA-
 Push new version from Google Drive to users (3 methods in VBA)
-You have built a great Excel sheet. You share it and whoever gets it loves it and it gets handed around even more - you don't even know to whom.
-Then it happens - something needs to be changed in the file: Some value changes in the worksheet, Some value was hardcoded and can't be changed by the user,
-you think of another helpful feature, the database it connects to moves to a new server, you find a mistake, How do you let everyone know? How do you tell the users of your file that there is a newer version available if you don't even know who those users are? 
-Maybe you are too lazy to collect and manage a user's mailing list.
+Method1: Push new file version from Google Drive to users (VBA)
+Method2: Push new code from Google Drive to original users file (VBA)
+Method3: Push new code from a shared path on local network to original users file (VBA)
+See project on stackoverflow: https://stackoverflow.com/questions/71829652/push-new-version-from-google-drive-to-users-vba/71829732#71829732
+
 Existing solutions disadvantages that this solution solves:
 
 ● Some solutions require saving user's emails and mailing multiple users. If someone shares the file whoever receives the file will not receive version updates.
-
 ● Some solutions require the developer to register to a Zapeir or Integrate account in order to configure webhooks.
-
 ● Some solutions require a fixed filename (the new file name cannot be taken from Google Drive).
-
 ● Some solutions require the use of Google API which includes a complicated set of permissions that have to be configured(authentication with token issuance and secret code). Since in our case the file is shared publicly, the need for such permissions can be avoided, thus a simpler solution can be implemented.
 
 How does it work?
@@ -21,9 +19,12 @@ If there is a newer version upon opening the file the user will be notified abou
 Credit to part of method1 to Florian Lindstaedt posted:
 https://www.linkedin.com/pulse/20140608044541-54506939-how-to-recall-an-old-excel-spreadsheet-version-control-with-vba
 
+You have built a great Excel sheet. You share it and whoever gets it loves it and it gets handed around even more - you don't even know to whom.
+Then it happens - something needs to be changed in the file: Some value changes in the worksheet, Some value was hardcoded and can't be changed by the user,
+you think of another helpful feature, the database it connects to moves to a new server, you find a mistake, How do you let everyone know? How do you tell the users of your file that there is a newer version available if you don't even know who those users are? 
+Maybe you are too lazy to collect and manage a user's mailing list.
 Noam Brand noambbb@gmail.com
 
-See project on stackoverflow: https://stackoverflow.com/questions/71829652/push-new-version-from-google-drive-to-users-vba/71829732#71829732
 
 
 עדכון גרסאות תוכנה מקומיות מגוגל דרייב באמצעות VBA
